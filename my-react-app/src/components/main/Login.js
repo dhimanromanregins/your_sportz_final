@@ -117,11 +117,11 @@ function Login() {
                     <input type={showPassword ? 'text' : 'password'} id="password" name="password" value={formData.password} onChange={handleChange} placeholder="Enter your password" />
                     {showPassword ? (
                       <span className="toggle-password" onClick={toggleShowPassword}>
-                        <img src="hide.png" alt="Hide Password" />
+                        <img src="eye-icon.png" alt="Hide Password" />
                       </span>
                     ) : (
                       <span className="toggle-password" onClick={toggleShowPassword}>
-                        <img src="eye-icon.png" alt="Show Password" />
+                        <img src="hide.png" alt="Show Password" />
                       </span>
                     )}
                     {formData.errors.password && <p className="error-text">{formData.errors.password}</p>}

@@ -305,7 +305,7 @@ p.f-light {
   background-color: var(---primary-button);
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
@@ -1609,7 +1609,7 @@ button.ios-btn {
   margin-bottom:30px;
 }
 .terms-span{
-  color:var(---primary-button);
+  color: var(---primary-button) !important;
 }
 @media (min-width: 991px) {
   .nav-link::before {
