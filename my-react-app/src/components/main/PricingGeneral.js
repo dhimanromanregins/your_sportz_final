@@ -13,14 +13,14 @@ const PaymentGeneral = () => {
   };
 
   useEffect(() => {
-    fetch('http://20.244.108.174/api/price/general/')
+    fetch('https://yoursportz.in/api/price/general/')
       .then(response => response.json())
       .then(data => setPricingData(data))
       .catch(error => console.error('Error fetching pricing data:', error));
   }, []);
 
   useEffect(() => {
-    fetch('http://20.244.108.174/api/price/corporate/')
+    fetch('https://yoursportz.in/api/price/corporate/')
       .then(response => response.json())
       .then(data => setPricingData_corporate(data))
       .catch(error => console.error('Error fetching pricing data:', error));

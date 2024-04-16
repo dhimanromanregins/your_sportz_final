@@ -60,7 +60,7 @@ function Login() {
     // Send the form data to the API
     try {
       setIsLoading(true);
-      const response = await fetch('https://20.244.108.174/api/login/', {
+      const response = await fetch('https://yoursportz.in//api/login/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
