@@ -54,7 +54,7 @@ const Contact = () => {
         if (isValid) {
             try {
                 setIsLoading(true); // Set isLoading to true when submitting the form
-                const response = await fetch('http://20.244.108.174/api/contacts/', {
+                const response = await fetch('https://20.244.108.174/api/contacts/', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
